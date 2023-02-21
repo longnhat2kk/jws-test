@@ -1,0 +1,72 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+/* Mobile - Tablet */
+@media (max-width: 1023px) {
+    .ultimate-trick .suggest-lists .suggest-items {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .ultimate-trick .suggest-lists .suggest-items .suggest-link .content .title {
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+        margin-bottom: 1rem;
+    }
+
+    .ultimate-trick .suggest-lists .suggest-items .suggest-link .img-content {
+        min-width: 5.25rem;
+        height: 5.25rem;
+    }
+
+    .ultimate-trick .times .time-items {
+        font-size: 0.6rem;
+    }
+
+    .ultimate-trick .card-lists .card .img-card {
+        height: 9.6rem;
+    }
+
+    .ultimate-trick .heading-title {
+        margin: 0 0rem 4rem;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .ultimate-trick .heading-title {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        margin: 0 0rem 2rem;
+    }
+
+    .ultimate-trick .card-lists .card .img-card {
+        height: 8rem;
+    }
+
+    .ultimate-trick .card-lists .card .title {
+        font-size: 1.25rem;
+        line-height: 1.7rem;
+    }
+
+    .ultimate-trick .times .time-items {
+        font-size: 0.6rem;
+    }
+
+    .ultimate-trick .times .time-items svg {
+        width: .8rem;
+        height: .8rem;
+    }
+
+    .ultimate-trick ul {
+        margin-top: 3rem;
+    }
+
+
+
+}

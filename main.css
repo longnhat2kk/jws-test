@@ -1,0 +1,144 @@
+:root {
+    --color-main: #2D3958;
+    --color-text: #7B88A8;
+    --color-icon: #4F77FF;
+}
+
+.ultimate-trick a {
+    text-decoration: none;
+    display: block;
+}
+
+.ultimate-trick ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ultimate-trick .times {
+    display: flex;
+    align-items: center;
+}
+
+.ultimate-trick .times .time-items {
+    margin-right: 1rem;
+    color: var(--color-text);
+    font-size: .87rem;
+    display: flex;
+    align-items: center;
+}
+
+.ultimate-trick .times .time-items:last-child {
+    margin-right: 0;
+}
+
+.ultimate-trick .times .time-items svg {
+    margin-right: 5px;
+}
+
+/* ********************** */
+
+.ultimate-trick .heading-title {
+    color: var(--color-main);
+    font-weight: 500 !important;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    margin: 0 2rem 5rem;
+}
+
+.ultimate-trick .card-lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.ultimate-trick .card-lists .card {
+    border: none;
+}
+
+.ultimate-trick .card-lists .card .img-card img {
+    transition: all .3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ultimate-trick .card-lists .card:hover .img-card img {
+    transform: scale(1.1);
+}
+
+.ultimate-trick .suggest-lists .suggest-items:hover .suggest-link .content .title,
+.ultimate-trick .card-lists .card:hover .title {
+    color: rgba(255, 0, 0, 0.678);
+}
+
+.ultimate-trick .card-lists .card .img-card {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 18.7rem;
+}
+
+.ultimate-trick .card-lists .card .title {
+    font-weight: 400 !important;
+    font-size: 1.37rem;
+    line-height: 2rem;
+    color: var(--color-main);
+    margin-top: 1rem;
+    transition: all .3s ease;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.ultimate-trick .card-lists .card .text {
+    font-family: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--color-text);
+
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.ultimate-trick .suggest-lists .suggest-items {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #E7E5EA;
+}
+
+.ultimate-trick .suggest-lists .suggest-items:hover .img-content img {
+    transform: scale(1.1);
+}
+
+.ultimate-trick .suggest-lists .suggest-items .suggest-link {
+    display: flex;
+}
+
+.ultimate-trick .suggest-lists .suggest-items .suggest-link .content .title {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--color-main);
+    margin-bottom: 2rem;
+    transition: all .3s ease-in;
+}
+
+.ultimate-trick .suggest-lists .suggest-items .suggest-link .img-content {
+    min-width: 6.25rem;
+    height: 6.25rem;
+    margin-left: 1rem;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.ultimate-trick .suggest-lists .suggest-items .suggest-link .img-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in;
+}
